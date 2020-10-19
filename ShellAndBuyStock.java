@@ -12,6 +12,15 @@ class ShellAndBuyStock
 // Function to return the maximum profit 
 // that can be made after buying and 
 // selling the given stocks 
+public static int maxProfit2NdApproach(int[] prices) {
+        int Max = 0;
+        for (int i = 0; i < prices.length-1; i++){
+            if (prices[i+1] > prices[i]){
+                Max += prices[i+1]-prices[i];
+            }
+        }
+        return Max;
+    }
 static int maxProfit(int price[], int start, int end) 
 { 
 
