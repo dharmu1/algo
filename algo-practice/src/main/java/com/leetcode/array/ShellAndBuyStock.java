@@ -1,4 +1,4 @@
-package com.algo.amazon;// Java implementation of the approach
+package com.leetcode.array;// Java implementation of the approach
 // We need to come up with an API which provides max profit to end investor for a specific company
 // Assume that you have a prediction algorithm in the background which gives you all the stock values in
 // future for a given company.

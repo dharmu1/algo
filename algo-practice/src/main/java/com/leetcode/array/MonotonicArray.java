@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.array;
 
 /*An array is monotonic if it is either monotone increasing or monotone decreasing.
 
