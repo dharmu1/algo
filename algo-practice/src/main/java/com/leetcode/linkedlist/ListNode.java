@@ -1,8 +1,8 @@
 package com.leetcode.linkedlist;
 
 public class ListNode {
-   ListNode next;
-    int data;
+   public ListNode next;
+   public int data;
 
     ListNode(int data) {
         this.data = data;
